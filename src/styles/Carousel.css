@@ -1,0 +1,85 @@
+.Carousel {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 43vw;
+  min-width: 625px;
+}
+
+.Carousel-image {
+  width: 100%;
+}
+
+.Carousel-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #407961;
+}
+
+.Carousel-caption span {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fdfdfd;
+}
+
+.Carousel-button {
+  position: absolute;
+  top: 50%;
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 45px;
+  width: 45px;
+  border: none;
+  border-radius: 100%;
+  background-color: #407961;
+  color: #fdfdfd;
+  cursor: pointer;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+}
+
+.Carousel-button:hover {
+  background-color: #245340;
+}
+
+.Carousel-button:hover .fa-angle-right {
+  transform: translateX(3px);
+  transition: transform 0.1s ease-in-out;
+}
+
+.Carousel-button:hover .fa-angle-left {
+  transform: translateX(-3px);
+  transition: transform 0.1s ease-in-out;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+  font-size: 30px;
+}
+
+.Carousel-button:hover .fa-angle-left,
+.Carousel-button:hover .fa-angle-right {
+  color: #fdfdfd;
+}
+
+.Carousel-previous {
+  left: 0;
+}
+
+.Carousel-next {
+  right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Carousel {
+    width: 90%;
+    min-width: 0px;
+  }
+}
+
+/*# sourceMappingURL=Carousel.css.map */

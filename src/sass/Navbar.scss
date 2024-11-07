@@ -1,0 +1,19 @@
+@use "./colours" as c;
+
+.Navbar {
+  /* FLEXBOX */
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+  z-index: 999;
+
+  /* SIZE */
+  width: 100%;
+  height: 50px;
+
+  /* STYLE */
+  background-color: c.$highlight_colour;
+  /* background-color: #d7b4c1; */
+  color: c.$secondary_colour;
+}

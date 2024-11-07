@@ -1,0 +1,55 @@
+@use "./colours" as c;
+
+.Marquee {
+  /* FLEX BOX */
+  display: flex;
+  align-items: center;
+
+  /* SIZE */
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+  --gap: 1rem;
+  gap: var(--gap);
+
+  /* STYLE */
+  background-color: c.$highlight-colour;
+  color: c.$secondary_colour;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.Marquee-list {
+  /* FLEX BOX */
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-around;
+
+  /* SIZE */
+  min-width: 100%;
+  gap: var(--gap);
+  margin: 0;
+  padding: 0;
+
+  /* FONT */
+  font-size: 125px;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  list-style-type: none;
+
+  /* ANIMATION */
+  animation: scroll 90s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0) scaleY(1.7);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap))) scaleY(1.7);
+  }
+}

@@ -1,0 +1,32 @@
+.ParallaxText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 150px;
+  color: #fdfdfd;
+}
+
+.ParallaxText-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  will-change: transform;
+  transition: transform 0.7s ease-out;
+}
+
+.ParallaxText-list li {
+  padding: 12px;
+  font-size: 150px;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=ParallaxText.css.map */

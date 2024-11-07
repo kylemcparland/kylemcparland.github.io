@@ -1,0 +1,44 @@
+.NavLinks {
+  /* FLEXBOX */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15vw;
+  /* SIZE */
+  width: 225px;
+  /* FONT */
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  /* STYLE */
+  user-select: none;
+  text-underline-offset: 5px;
+}
+
+.NavLinks-button {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+.NavLinks-button:hover {
+  text-decoration: underline;
+}
+
+.fa-solid:hover {
+  color: #242424;
+}
+
+/*# sourceMappingURL=NavLinks.css.map */

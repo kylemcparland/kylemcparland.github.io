@@ -1,0 +1,48 @@
+@use "./colours" as c;
+
+.ScrollDown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+
+  height: fit-content;
+  width: fit-content;
+  // background-color: c.$highlight-colour;
+  // color: c.$secondary-colour;
+  color: c.$highlight-colour;
+
+  z-index: 0;
+
+  /* SIZE */
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+
+  border-radius: 5px;
+
+  // FONT
+  font-size: 40px;
+
+  // ANIMATION:
+  transform: translateY(-10px);
+  animation: point 1.2s ease-in-out infinite;
+}
+
+@keyframes point {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

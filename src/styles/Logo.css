@@ -1,0 +1,30 @@
+.Logo {
+  /* FLEXBOX */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 15vw;
+  /* transform: scaleX(1.05); */
+  /* FONT */
+  /* font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px; */
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  /* STYLE */
+  cursor: pointer;
+  user-select: none;
+  text-underline-offset: 5px;
+}
+
+.Logo:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=Logo.css.map */

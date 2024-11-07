@@ -1,0 +1,122 @@
+@use "./colours" as c;
+
+.Article {
+  /* FLEX BOX */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+
+  /* SIZE */
+  height: fit-content;
+  width: 100%;
+
+  /* STYLE */
+  background-color: c.$div-colour;
+}
+
+.Article-body {
+  /* FLEX BOX */
+  display: flex;
+  align-items: center;
+
+  /* SIZE */
+  min-height: 400px;
+  max-width: 715px;
+  min-width: 700px;
+
+  /* STYLE */
+  background-color: c.$secondary-colour;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  // border-bottom-left-radius: 30px;
+  // border-top-left-radius: 30px;
+
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-right: 3em;
+
+  /* SIZE */
+  // FLEXBOX
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
+
+  /* SIZE */
+  box-sizing: border-box;
+  padding: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+
+  /* FONT */
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  /* font-size: 1.8vw; */
+  /* letter-spacing: -0.015em; */
+  /* transform: scaleX(.9); */
+}
+
+.Article-body p {
+  margin: 0;
+}
+
+.Article-body a {
+  color: c.$highlight-colour;
+}
+
+.Article-body a:hover {
+  text-decoration: none;
+}
+
+.Article-image {
+  /* SIZE */
+  height: 100%;
+  height: 400px;
+
+  margin-left: 3em;
+
+  /* STYLE */
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.Article-body-image {
+  /* SIZE */
+  height: 90px;
+
+  /* STYLE */
+  float: right;
+  margin-top: 5px;
+  // margin-right: 15px;
+  // margin-left: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Article {
+    flex-direction: column;
+    align-items: center;
+    background-color: c.$secondary-colour;
+  }
+  .Article-body {
+    display: block;
+    margin: 0;
+    // margin-bottom: 2em;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: 800px;
+    padding-top: 0px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .Article-image {
+    margin: 0;
+    margin-top: 2em;
+
+    height: 200px;
+    border-radius: 100%;
+  }
+}

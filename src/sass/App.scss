@@ -1,0 +1,15 @@
+@use "./colours" as c;
+
+.App {
+  // FLEX BOX
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  // STYLE
+  background-color: c.$primary_colour;
+
+  // background-image: url("../../public/images/pw_maze_black.png");
+  // background-repeat: repeat;
+  // background-attachment: fixed;
+}
