@@ -17,6 +17,7 @@ import {
 
 // TWEETER:
 import { Tweeter, tweeterLink, tweeterPhotos } from "./projects/Tweeter";
+import { VHSDreams, vhsLink, vhsPhotos } from "./projects/VHSDreams";
 
 function App() {
   // Function to scroll to <Article> FROM <Navbar>
@@ -40,7 +41,18 @@ function App() {
       </div>
       <br />
       <br />
-      {/* <Marquee /> */}
+      <ParallaxText text="VHS DREAMS" backwards={false} speed={3} />
+      <ParallaxText text="VHS DREAMS" backwards={true} speed={3} />
+      <br />
+      <br />
+      <Project
+        description={<VHSDreams />}
+        link={vhsLink}
+        photos={vhsPhotos}
+        title="VHS Dreams"
+      />
+      <br />
+      <br />
       <ParallaxText text="PHOTOLABS" backwards={false} speed={3} />
       <ParallaxText text="PHOTOLABS" backwards={true} speed={3} />
       <br />
@@ -63,61 +75,6 @@ function App() {
         photos={tweeterPhotos}
         title="Tweeter"
       />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
-      below <br />
       below <br />
       below <br />
       below <br />

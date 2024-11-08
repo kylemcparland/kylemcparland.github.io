@@ -32,7 +32,7 @@
 .fa-cat {
   padding: 5px;
   transform: translateY(-3px);
-  font-size: 21px;
+  font-size: 20px;
   display: none;
 }
 
@@ -42,7 +42,7 @@
 
 .fa-cat:hover {
   user-select: none;
-  color: c.$highlight-colour;
+  color: c.$secondary-colour;
 }
 
 // .Logo p::first-letter {

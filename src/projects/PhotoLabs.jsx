@@ -1,24 +1,24 @@
 import React from "react";
 
-export const photoLabsLink = "https://github.com/kylemcparland/photolabs";
+export const photoLabsLink = "https://www.github.com/kylemcparland/photolabs";
 
 export const photoLabsPhotos = [
   {
-    url: "images/PL-2.gif",
+    url: "images/PL/1.gif",
     caption:
       "React's state management system enables persistent favourites across the page!",
   },
   {
-    url: "images/PL-3.png",
+    url: "images/PL/2.png",
     caption: "Click on a photo to open a detailed photo modal.",
   },
-  { url: "images/PL-1.png", caption: "Screenshot of PhotoLabs homepage." },
+  { url: "images/PL/3.png", caption: "Screenshot of PhotoLabs homepage." },
   {
-    url: "images/PL-4.png",
+    url: "images/PL/4.png",
     caption: "Your favourites have a pop-up modal too!.",
   },
   {
-    url: "images/PL-5.gif",
+    url: "images/PL/5.gif",
     caption: "Dynamically sort photos by topic... Or explore all photos!",
   },
 ];

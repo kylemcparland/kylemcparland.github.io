@@ -12,7 +12,7 @@ const Project = ({ description, link, photos, title }) => {
         <div className="Project-body">
           {description}
           <div className="Project-link">
-            <a href={link}>
+            <a href={link} target="_blank" rel="noopener noreferrer">
               <button className="Project-button">
                 {/* <i className="fa-brands fa-github"></i> */}
                 View on GitHub
