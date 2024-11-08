@@ -21,7 +21,7 @@
   overflow: hidden;
 
   // SIZE
-  width: 45vw;
+  width: 40vw;
   // height: 600px;
   // margin-top: 5em;
   // margin-bottom: 5em;
@@ -48,6 +48,7 @@
   font-size: 70px;
   margin: 0;
   text-align: center;
+  letter-spacing: 2px;
 
   color: c.$secondary-colour;
 }
@@ -80,6 +81,13 @@
   border-bottom-right-radius: 25px;
 }
 
+.Project-body span {
+  display: flex;
+  justify-self: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 .Project-button {
   background-color: c.$highlight-colour;
   color: c.$secondary_colour;
@@ -88,16 +96,23 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 400;
-  font-size: 45px;
+  font-size: 20px;
+
+  margin-top: 10px;
+  padding: .7em;
 
   border: none;
   border-radius: 25px;
-  width: 90px;
-  height: 75px;
+  width: fit-content;
+  height: fit-content;
   cursor: pointer;
 }
 
 .Project-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   align-self: center;
 
   // display: flex;
@@ -105,7 +120,7 @@
   // align-items: center;
   color: c.$highlight-colour;
   font-weight: 800;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .Project-button:hover {

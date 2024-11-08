@@ -27,7 +27,8 @@ export const PhotoLabs = () => {
   return (
     <div>
       <span>
-        <strong>JS, React, Express, Node.js, SASS, PostgreSQL</strong>
+        JS &#x2022; React &#x2022; Express &#x2022; Node.js &#x2022; SASS
+        &#x2022; PostgreSQL
       </span>
       <p>
         PhotoLabs is a full-stack, React-based single-page application (SPA)
@@ -42,8 +43,6 @@ export const PhotoLabs = () => {
         utilize useState and useEffect. Connecting the fav-button component to
         state was SO satisfying and the way it persists across the page made the
         app feel so snappy!
-        <br />
-        <br />
       </p>
     </div>
   );

@@ -12,10 +12,10 @@ const Project = ({ description, link, photos, title }) => {
         <div className="Project-body">
           {description}
           <div className="Project-link">
-            {/* View project repo: */}
             <a href={link}>
               <button className="Project-button">
-                <i className="fa-brands fa-github"></i>
+                {/* <i className="fa-brands fa-github"></i> */}
+                View on GitHub
               </button>
             </a>
           </div>
