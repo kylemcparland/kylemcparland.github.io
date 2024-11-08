@@ -5,4 +5,9 @@
   background-color: #080808;
 }
 
+.Article-ref {
+  width: 100%;
+  z-index: 1;
+}
+
 /*# sourceMappingURL=App.css.map */

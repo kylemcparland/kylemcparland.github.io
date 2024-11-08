@@ -4,11 +4,11 @@ import Logo from "./Logo";
 
 import "../styles/Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ scrollToArticle }) => {
   return (
     <div className="Navbar">
       <Logo />
-      <NavLinks />
+      <NavLinks scrollToArticle={scrollToArticle} />
     </div>
   );
 };

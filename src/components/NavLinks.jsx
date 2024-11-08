@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/NavLinks.css";
 
-const NavLinks = () => {
+const NavLinks = ({ scrollToArticle }) => {
   const scrollToAbout = () => {
     window.scrollTo({ top: 777, behavior: "smooth" });
   };
 
   return (
     <div className="NavLinks">
-      <button className="NavLinks-button" onClick={() => scrollToAbout()}>
+      <button className="NavLinks-button" onClick={scrollToArticle}>
         About
       </button>
       <a

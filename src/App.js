@@ -1,3 +1,4 @@
+import React, { useRef } from "react";
 import "./styles/App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -18,12 +19,25 @@ import {
 import { Tweeter, tweeterLink, tweeterPhotos } from "./projects/Tweeter";
 
 function App() {
+  // Function to scroll to <Article> FROM <Navbar>
+  const articleRef = useRef(null);
+  const scrollToArticle = () => {
+    if (articleRef.current) {
+      articleRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }
+  };
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar scrollToArticle={scrollToArticle} />
       <ScrollDown />
       <Header />
-      <Article />
+      <div className="Article-ref" ref={articleRef}>
+        <Article />
+      </div>
       <br />
       <br />
       {/* <Marquee /> */}
