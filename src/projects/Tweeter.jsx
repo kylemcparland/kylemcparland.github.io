@@ -2,13 +2,25 @@ import React from "react";
 
 export const tweeterPhotos = [
   {
-    url: "images/T-1.gif",
+    url: "images/Tweeter/1.gif",
     caption:
       "Tweet whatever you like and Tweeter will generate a Username and Handle for you!",
   },
   {
-    url: "images/T-2.png",
-    caption: "Even the Tweets have responsive design!",
+    url: "images/Tweeter/2.gif",
+    caption: "",
+  },
+  {
+    url: "images/Tweeter/3.gif",
+    caption: "",
+  },
+  {
+    url: "images/Tweeter/4.gif",
+    caption: "",
+  },
+  {
+    url: "images/Tweeter/5.png",
+    caption: "",
   },
 ];
 
