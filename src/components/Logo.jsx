@@ -5,6 +5,7 @@ const Logo = () => {
   return (
     <div className="Logo">
       <p>Kyle McParland</p>
+      <i className="fa-solid fa-cat"></i>
     </div>
   );
 };

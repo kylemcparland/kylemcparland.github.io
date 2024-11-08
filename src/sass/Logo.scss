@@ -1,17 +1,12 @@
+@use "./colours" as c;
+
 .Logo {
   /* FLEXBOX */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-left: 15vw;
-  /* transform: scaleX(1.05); */
-
-  /* FONT */
-  /* font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 25px; */
+  // transform: scaleX(1.05);
 
   font-family: "Newsreader", serif;
   font-optical-sizing: auto;
@@ -20,12 +15,39 @@
   font-size: 28px;
   text-align: center;
 
+  // font-family: "Work Sans", sans-serif;
+  // font-optical-sizing: auto;
+  // font-style: normal;
+  // font-weight: 600;
+  // font-size: 28px;
+
   /* STYLE */
   // cursor: pointer;
   user-select: none;
 
+  color: c.$secondary-colour;
   text-underline-offset: 5px;
 }
+
+.fa-cat {
+  padding: 5px;
+  transform: translateY(-3px);
+  font-size: 21px;
+  display: none;
+}
+
+.Logo:hover .fa-cat {
+  display: block;
+}
+
+.fa-cat:hover {
+  user-select: none;
+  color: c.$highlight-colour;
+}
+
+// .Logo p::first-letter {
+//   font-weight: 700;
+// }
 
 // .Logo:hover {
 //   text-decoration: underline;
