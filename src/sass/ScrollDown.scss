@@ -46,3 +46,9 @@
     transform: translateY(-10px);
   }
 }
+
+@media (max-width: 768px) {
+  .ScrollDown {
+    display: none;
+  }
+}

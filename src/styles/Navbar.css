@@ -13,4 +13,10 @@
   color: #fdfdfd;
 }
 
+@media (max-width: 768px) {
+  .Navbar {
+    position: relative;
+  }
+}
+
 /*# sourceMappingURL=Navbar.css.map */

@@ -20,7 +20,7 @@
   padding: 0;
   white-space: nowrap;
   will-change: transform;
-  transition: transform .7s ease-out;
+  transition: transform 0.7s ease-out;
 }
 
 .ParallaxText-list li {
@@ -33,4 +33,13 @@
   font-style: normal;
   text-align: center;
   list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .ParallaxText {
+    height: fit-content;
+  }
+  .ParallaxText-list li {
+    font-size: 5em;
+  }
 }

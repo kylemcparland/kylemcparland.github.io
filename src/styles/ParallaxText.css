@@ -29,4 +29,13 @@
   list-style-type: none;
 }
 
+@media (max-width: 768px) {
+  .ParallaxText {
+    height: fit-content;
+  }
+  .ParallaxText-list li {
+    font-size: 5em;
+  }
+}
+
 /*# sourceMappingURL=ParallaxText.css.map */

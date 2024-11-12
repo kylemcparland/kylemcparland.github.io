@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./styles/App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import MobileHeader from "./components/MobileHeader";
 import Marquee from "./components/Marquee";
 import Article from "./components/Article";
 import Project from "./components/Project";
@@ -36,40 +37,46 @@ function App() {
     <div className="App">
       <Navbar scrollToArticle={scrollToArticle} />
       <ScrollDown />
-      <Header />
+      <div className="Desktop-mode">
+        <Header />
+      </div>
+      {/* <div className="Mobile-header">
+        <MobileHeader />
+      </div> */}
+
       <div className="Article-ref" ref={articleRef}>
         <Article />
       </div>
-      <br />
-      <br />
+      <br className="break" />
+      <br className="break" />
       <ParallaxText text="PHOTOLABS" backwards={false} speed={3} />
       <ParallaxText text="PHOTOLABS" backwards={true} speed={3} />
-      <br />
-      <br />
+      <br className="break" />
+      <br className="break" />
       <Project
         description={<PhotoLabs />}
         link={photoLabsLink}
         photos={photoLabsPhotos}
         title="PhotoLabs"
       />
-      <br />
-      <br />
+      <br className="break" />
+      <br className="break" />
       <ParallaxText text="VHS DREAMS" backwards={false} speed={3} />
       <ParallaxText text="VHS DREAMS" backwards={true} speed={3} />
-      <br />
-      <br />
+      <br className="break" />
+      <br className="break" />
       <Project
         description={<VHSDreams />}
         link={vhsLink}
         photos={vhsPhotos}
         title="VHS Dreams"
       />
-      <br />
-      <br />
+      <br className="break" />
+      <br className="break" />
       <ParallaxText text="TWEETER" backwards={false} speed={3} />
       <ParallaxText text="TWEETER" backwards={true} speed={3} />
-      <br />
-      <br />
+      <br className="break" />
+      <br className="break" />
       <Project
         description={<Tweeter />}
         link={tweeterLink}

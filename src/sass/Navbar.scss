@@ -17,3 +17,9 @@
   /* background-color: #d7b4c1; */
   color: c.$secondary_colour;
 }
+
+@media (max-width: 768px) {
+  .Navbar {
+    position: relative;
+  }
+}

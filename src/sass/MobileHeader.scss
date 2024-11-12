@@ -1,19 +1,14 @@
 @use "./colours" as c;
 
-.Header {
+.MobileHeader {
   /* FLEXBOX */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  // position:sticky;
-  // top: 0;
 
   /* SIZE */
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  width: 100%;
+  // overflow: hidden;
 
   /* STYLE */
   // background-color: c.$primary_colour;
@@ -26,24 +21,26 @@
   // );
 }
 
-.Hero {
+.Hero-mobile {
   /* STYLE */
-  color: c.$secondary_colour;
+  color: c.$primary_colour;
+
+  margin-right: 3vw;
 
   /* FONT */
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 180px;
+  font-size: 3em;
+  font-weight: 800;
   text-align: center;
-  /* line-height: 0.67em; */
-  line-height: 6.3vw;
+  line-height: 0.67em;
+  line-height: 0.45em;
   letter-spacing: -0.2rem;
 
   /* (REMOVE THIS) Find a better way to center text?.... */
-  margin-top: 150px;
 }
 
-.Hero-text {
-  margin: 0px;
+.Hero-image {
+  color: white;
 }

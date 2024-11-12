@@ -14,7 +14,48 @@
   // background-attachment: fixed;
 }
 
+.Mobile-header {
+  height: 200px;
+  width: 100%;
+}
+
+.Desktop-mode {
+  /* FLEXBOX */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // position:sticky;
+  // top: 0;
+
+  /* SIZE */
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .Article-ref {
   width: 100%;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .Desktop-mode {
+    display: none;
+  }
+  .Mobile-header {
+    display: flex;
+  }
+  .break {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .Desktop-mode {
+    display: flex;
+  }
+  .Mobile-header {
+    display: none;
+  }
 }

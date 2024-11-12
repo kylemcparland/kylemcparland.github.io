@@ -120,3 +120,18 @@
     border-radius: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .Article-body {
+    font-size: 16px;
+  }
+  .Article-image {
+    margin: 1em;
+  }
+  .Article-body-image {
+    margin: 0.5em;
+  }
+  .desktop-break {
+    display: none;
+  }
+}
