@@ -5,23 +5,27 @@ export const vhsLink = "https://www.github.com/kylemcparland/midterm";
 export const vhsPhotos = [
   {
     url: "images/VHSDreams/1.gif",
-    caption: "",
+    caption:
+      "Users can search for a movie, add it to their favourites - or change their mind!",
   },
   {
     url: "images/VHSDreams/2.png",
-    caption: "",
+    caption:
+      "Refining the search: Using advanced filters to find the perfect movie.",
   },
   {
     url: "images/VHSDreams/3.gif",
-    caption: "",
+    caption: "Admins can chat with users and mark a movie as SOLD!",
   },
   {
     url: "images/VHSDreams/4.gif",
-    caption: "",
+    caption:
+      "Adding a new movie will dynamically pull the Rotten Tomatoes score & poster from the API.",
   },
   {
     url: "images/VHSDreams/5.png",
-    caption: "",
+    caption:
+      "Welcome to VHS Dreams: The ultimate destination for retro movie lovers.",
   },
 ];
 

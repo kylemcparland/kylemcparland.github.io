@@ -6,16 +6,19 @@ export const photoLabsPhotos = [
   {
     url: "images/PL/1.gif",
     caption:
-      "React's state management system enables persistent favourites across the page!",
+      "React's state management system enables persistent favourites across the application.",
   },
   {
     url: "images/PL/2.png",
-    caption: "Click on a photo to open a detailed photo modal.",
+    caption: "View details: Click on a photo to open a detailed photo modal.",
   },
-  { url: "images/PL/3.png", caption: "Screenshot of PhotoLabs homepage." },
+  {
+    url: "images/PL/3.png",
+    caption: "The homepage showcases a curated selection of photos.",
+  },
   {
     url: "images/PL/4.png",
-    caption: "Your favourites have a pop-up modal too!.",
+    caption: "Access your saved favourites via a quick pop-up modal.",
   },
   {
     url: "images/PL/5.gif",
