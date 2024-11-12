@@ -29,14 +29,21 @@ export const tweeterLink = "https://github.com/kylemcparland/tweeter";
 export const Tweeter = () => {
   return (
     <div>
-      <span>
-        <strong>JS, jQuery, Express, SASS, Node.js</strong>
-      </span>
+      <span>Node.js &#x2022; Express &#x2022; jQuery &#x2022; SASS</span>
       <p>
-        Tweeter is a streamlined, single-page web application that emulates the
-        core functionalities of Twitter. It was built to hone proficiency in
-        front-end technologies such as HTML, CSS, JavaScript, jQuery, and AJAX
-        -- as well as back-end development with Node.js and Express.
+        <i>Tweeter</i> is a single-page web application that mimics core Twitter
+        functionalities, focusing on a dynamic, interactive user interface.
+        Users can post and view tweets in real time, with the front-end built
+        using JS & jQuery, and the back-end powered by Node.js & Express. The
+        app uses AJAX for seamless, real-time updates without page refreshes,
+        and SASS for maintainable styling.
+        <br />
+        <br />
+        My key takeaway from this project was learning to build responsive UIs
+        with <strong>jQuery</strong> and Flexbox while adhering to given design
+        specifications. I focused on creating semantic, accessible HTML/CSS
+        layouts and used <strong>jQuery</strong> to manipulate the DOM, bind
+        event handlers, and implement AJAX for real-time updates.
       </p>
     </div>
   );

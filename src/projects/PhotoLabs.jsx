@@ -27,22 +27,23 @@ export const PhotoLabs = () => {
   return (
     <div>
       <span>
-        JS &#x2022; React &#x2022; Express &#x2022; Node.js &#x2022; SASS
-        &#x2022; PostgreSQL
+        React &#x2022; Node.js &#x2022; Express &#x2022; SASS &#x2022;
+        PostgreSQL
       </span>
       <p>
-        PhotoLabs is a full-stack, React-based single-page application (SPA)
-        that enables users to dynamically explore and interact with photos.
-        Users can sort images by topic and mark them as favourites, utilizing
-        React's state management system. This project focuses on the front-end,
-        client-side user experience, and integrates various technologies
-        including React, PostgreSQL, Node.js, and Express.
+        <i>PhotoLabs</i> is a React-based, single-page application that allows
+        users to explore and interact with a collection of images. Users can
+        filter images by topic and mark favourites, all within a responsive UI
+        built with SASS. The app integrates a PostgreSQL database for persistent
+        data storage, with Node.js and Express handling the server-side logic.
         <br />
         <br />
-        The coolest thing I learned while working on this project was how to
-        utilize useState and useEffect. Connecting the fav-button component to
-        state was SO satisfying and the way it persists across the page made the
-        app feel so snappy!
+        My key takeaway from this project was utilizing React's{" "}
+        <strong>useState</strong> and <strong>useEffect</strong> hooks to manage
+        and persist state across sessions. One of the highlights was
+        implementing the real-time favorite button functionality, which
+        significantly enhanced my understanding of React and state management in
+        web development.
       </p>
     </div>
   );

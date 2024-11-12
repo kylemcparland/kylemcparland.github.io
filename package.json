@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://kylemcparland.github.io/portfolio",
+  "homepage": ".",
   "eslintConfig": {
     "extends": [
       "react-app",
