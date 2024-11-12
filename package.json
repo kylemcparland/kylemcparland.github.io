@@ -16,7 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass-watch": "sass --watch src/sass:src/styles --poll"
+    "sass-watch": "sass --watch src/sass:src/styles --poll",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "sass": "^1.80.6"
   }
 }
