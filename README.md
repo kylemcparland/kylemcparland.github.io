@@ -1,3 +1,7 @@
+1. Project descriptions
+2. Footer
+3. Mobile + wider layout
+
 Web Developer | Recent Bootcamp Graduate
 
 //

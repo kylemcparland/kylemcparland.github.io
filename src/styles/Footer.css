@@ -1,0 +1,35 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  background-color: #0a0a0a;
+  color: #fdfdfd;
+}
+
+.Footer-email {
+  width: fit-content;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 0.02em;
+}
+
+.Footer-line {
+  border-color: #407961;
+  background-color: #407961;
+}
+
+.Footer-year {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=Footer.css.map */
