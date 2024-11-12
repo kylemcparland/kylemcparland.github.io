@@ -4,6 +4,8 @@
   justify-content: space-evenly;
   align-items: center;
   margin-left: 15vw;
+  margin-right: 7vw;
+  min-width: 185.53px;
   font-family: "Newsreader", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -16,6 +18,12 @@
   text-underline-offset: 5px;
 }
 
+.Logo-text {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
 .fa-cat {
   padding: 5px;
   transform: translateY(-3px);
@@ -23,7 +31,7 @@
   display: none;
 }
 
-.Logo:hover .fa-cat {
+.Logo-text:hover .fa-cat {
   display: block;
 }
 

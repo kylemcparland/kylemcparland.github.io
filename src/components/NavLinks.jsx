@@ -27,9 +27,9 @@ const NavLinks = ({ scrollToArticle }) => {
       >
         GitHub
       </a>
-      <button className="NavLinks-button">
+      {/* <button className="NavLinks-button">
         <i className="fa-solid fa-moon"></i>
-      </button>
+      </button> */}
 
       {/* For hover: */}
       {/* <i class="fa-regular fa-moon"></i> */}

@@ -4,8 +4,9 @@ import "../styles/Logo.css";
 const Logo = () => {
   return (
     <div className="Logo">
-      <p>Kyle McParland</p>
-      <i className="fa-solid fa-cat"></i>
+      <p className="Logo-text">
+        Kyle McParland<i className="fa-solid fa-cat"></i>
+      </p>
     </div>
   );
 };
