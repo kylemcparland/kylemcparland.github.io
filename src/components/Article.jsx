@@ -26,13 +26,12 @@ const Article = () => {
           <br />I find immense joy in creating clean, snappy, and dynamic web
           designs, while maintaining modular, DRY, and scalable code
           behind-the-scenes.
-          <br className="desktop-break" />
+          <br className="desktop-break" />{" "}
           <a
             href="https://www.linkedin.com/in/kyle-mcparland-9aa877103"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             I am actively seeking a position
           </a>{" "}
           where I can grow{" "}

@@ -1,4 +1,18 @@
 .NavLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavLinks-mobile {
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  margin-right: 8vw;
+  font-size: 25px;
+}
+
+.NavLinks-desktop {
   /* FLEXBOX */
   display: flex;
   justify-content: space-between;
@@ -41,6 +55,15 @@
 
 .fa-solid:hover {
   color: #242424;
+}
+
+@media (max-width: 750px) {
+  .NavLinks-mobile {
+    display: flex;
+  }
+  .NavLinks-desktop {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=NavLinks.css.map */

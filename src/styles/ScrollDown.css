@@ -6,8 +6,6 @@
   bottom: 0;
   right: 0;
   margin-right: 10px;
-  height: fit-content;
-  width: fit-content;
   color: #407961;
   z-index: 0;
   /* SIZE */
@@ -34,6 +32,11 @@
   }
 }
 @media (max-width: 768px) {
+  .ScrollDown {
+    display: none;
+  }
+}
+@media (max-height: 850px) {
   .ScrollDown {
     display: none;
   }

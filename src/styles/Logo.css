@@ -41,4 +41,10 @@
   color: #fdfdfd;
 }
 
+@media (max-width: 750px) {
+  .Logo {
+    margin-left: 8vw;
+  }
+}
+
 /*# sourceMappingURL=Logo.css.map */

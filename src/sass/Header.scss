@@ -44,14 +44,8 @@
   margin: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .Header {
     display: none;
-  }
-}
-
-@media (min-width: 769px) {
-  .Header {
-    display: flex;
   }
 }
