@@ -1,5 +1,18 @@
 Mobile + wider layout
 
+Cloud services certification- AWS
+https://learn.cantrill.io/p/aws-certified-developer-associate
++ https://tutorialsdojo.com/aws-sample-exam-questions/
+
+https://javascript30.com/
+- Build a calculator to test your JS skills
+
+Summary should be human written
+Bullet points can be more AI generated
+Good communication stands out as a skill
+Ability to ask for help and self start but work on your own
+
+
 Web Developer | Recent Bootcamp Graduate
 
 //

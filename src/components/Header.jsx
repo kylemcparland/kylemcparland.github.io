@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/Header.css";
 import useMousePosition from "../helpers/useMousePosition";
+import useWindowWidth from "../helpers/useWindowWidth";
 
 const Header = () => {
   const mousePosition = useMousePosition();
+  const headerHeight = useWindowWidth();
 
   //MIN-MAX RATIO CONVERSION:
   // new_value = ( (old_value - old_min) / (old_max - old_min) ) * (new_max - new_min) + new_min
@@ -28,20 +30,17 @@ const Header = () => {
   };
 
   return (
-    <div className="Header">
+    <div className="Header" style={{ height: headerHeight }}>
       <div className="Hero">
         <p className="Hero-text" style={transform}>
           FRONTEND
-        </p>{" "}
-        <br />
+        </p>
         <p className="Hero-text" style={transform}>
           BACKEND
-        </p>{" "}
-        <br />
+        </p>
         <p className="Hero-text" style={transform}>
           DATABASE
-        </p>{" "}
-        <br />
+        </p>
       </div>
     </div>
   );

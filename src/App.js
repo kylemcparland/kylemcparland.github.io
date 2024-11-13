@@ -37,9 +37,9 @@ function App() {
     <div className="App">
       <Navbar scrollToArticle={scrollToArticle} />
       <ScrollDown />
-      <div className="Desktop-mode">
-        <Header />
-      </div>
+
+      <Header />
+
       {/* <div className="Mobile-header">
         <MobileHeader />
       </div> */}

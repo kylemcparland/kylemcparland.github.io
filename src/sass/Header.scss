@@ -6,8 +6,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  // position:sticky;
-  // top: 0;
 
   /* SIZE */
   width: 100vw;
@@ -15,19 +13,22 @@
   height: 100vh;
   overflow: hidden;
 
-  /* STYLE */
-  // background-color: c.$primary_colour;
-  // background: repeating-linear-gradient(
-  //   180deg,
-  //   rgb(51, 51, 51) 0px, /* line color at the start */
-  //   rgba(51, 51, 51, 1) 1px, /* line width */
-  //   rgba(0, 0, 0, 0) 1px, /* transparent gap */
-  //   rgba(0, 0, 0, 0) 65px /* space between lines */
-  // );
+  max-height: 100vh;
+  min-height: 50vh;
 }
 
 .Hero {
   /* STYLE */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  // SIZE
+  gap: 6.3vw;
+  margin-top: 30px;
+
+  // STYLE
   color: c.$secondary_colour;
 
   /* FONT */
@@ -36,14 +37,21 @@
   font-style: normal;
   font-size: 180px;
   text-align: center;
-  /* line-height: 0.67em; */
-  line-height: 6.3vw;
   letter-spacing: -0.2rem;
-
-  /* (REMOVE THIS) Find a better way to center text?.... */
-  margin-top: 150px;
 }
 
 .Hero-text {
   margin: 0px;
+}
+
+@media (max-width: 768px) {
+  .Header {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .Header {
+    display: flex;
+  }
 }

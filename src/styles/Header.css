@@ -9,11 +9,18 @@
   max-width: 100%;
   height: 100vh;
   overflow: hidden;
-  /* STYLE */
+  max-height: 100vh;
+  min-height: 50vh;
 }
 
 .Hero {
   /* STYLE */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6.3vw;
+  margin-top: 30px;
   color: #fdfdfd;
   /* FONT */
   font-family: "Work Sans", sans-serif;
@@ -21,15 +28,22 @@
   font-style: normal;
   font-size: 180px;
   text-align: center;
-  /* line-height: 0.67em; */
-  line-height: 6.3vw;
   letter-spacing: -0.2rem;
-  /* (REMOVE THIS) Find a better way to center text?.... */
-  margin-top: 150px;
 }
 
 .Hero-text {
   margin: 0px;
+}
+
+@media (max-width: 768px) {
+  .Header {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .Header {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=Header.css.map */
