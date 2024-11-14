@@ -23,6 +23,7 @@
   align-items: center;
   margin: 0px;
   position: relative;
+  padding-top: 2px;
 }
 
 .fa-cat {
@@ -52,8 +53,11 @@
 }
 @media (max-width: 750px) {
   .Logo {
-    margin-left: 5vw;
+    margin-left: 28px;
     font-size: 25px;
+  }
+  .Logo-text {
+    padding-top: 4px;
   }
 }
 

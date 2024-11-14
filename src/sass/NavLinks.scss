@@ -68,7 +68,7 @@
 }
 
 .fa-brands {
-  font-size: 1.2em;
+  font-size: 31px;
   padding-left: 1em;
   color: c.$secondary-colour;
 }
@@ -76,8 +76,8 @@
 @media (max-width: 750px) {
   .NavLinks-mobile {
     display: flex;
-    margin-right: 5vw;
-    
+    margin-right: 28px;
+    padding-top: 2px;
   }
 
   .NavLinks-desktop {

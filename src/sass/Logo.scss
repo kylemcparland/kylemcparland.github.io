@@ -37,6 +37,7 @@
   align-items: center;
   margin: 0px;
   position: relative;
+  padding-top: 2px;
 }
 
 .fa-cat {
@@ -59,16 +60,21 @@
   .Logo-text:hover .fa-cat {
     display: none;
   }
-  
+
   .fa-cat:hover {
     user-select: none;
     color: c.$secondary-colour;
   }
 }
 
+// ==> MOBILE
+
 @media (max-width: 750px) {
   .Logo {
-    margin-left: 5vw;
+    margin-left: 28px;
     font-size: 25px;
+  }
+  .Logo-text {
+    padding-top: 4px;
   }
 }

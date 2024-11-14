@@ -37,13 +37,13 @@
 
 @media (max-width: 750px) {
   .ParallaxText {
-    height: 9em;
+    height: 8em;
     background-color: c.$div-colour;
   }
   .ParallaxText-list li {
     font-size: 9em;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 2px;
     color: c.$primary-colour;
   }
 }

@@ -11,6 +11,9 @@
 }
 
 @media (max-width: 750px) {
+  .App {
+    background-color: #242424;
+  }
   .break {
     display: none;
   }

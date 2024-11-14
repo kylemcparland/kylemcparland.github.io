@@ -20,6 +20,9 @@
 }
 
 @media (max-width: 750px) {
+  .App {
+    background-color: c.$div-colour;
+  }
   .break {
     display: none;
   }
