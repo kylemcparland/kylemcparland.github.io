@@ -15,7 +15,10 @@
     background-color: #242424;
   }
   .break {
-    display: none;
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 10%;
   }
 }
 

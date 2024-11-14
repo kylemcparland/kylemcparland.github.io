@@ -52,7 +52,7 @@ export const VHSDreams = () => {
         filter listings, favourite movies, and contact the admin directly via a
         real-time chat powered by{" "}
         <a href="https://socket.io/" target="_blank" rel="noopener noreferrer">
-          Socket.io
+          Socket.IO
         </a>
         .
         <br />

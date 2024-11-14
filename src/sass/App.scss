@@ -24,6 +24,9 @@
     background-color: c.$div-colour;
   }
   .break {
-    display: none;
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 10%;
   }
 }
