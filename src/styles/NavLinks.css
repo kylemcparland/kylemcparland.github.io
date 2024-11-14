@@ -45,7 +45,7 @@
   padding: 0;
   border: none;
   background: none;
-  color: #fcfcfc;
+  color: #f1f1f1;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@
 
 .fa-brands {
   font-size: 31px;
-  color: #fcfcfc;
+  color: #f1f1f1;
 }
 
 @media (max-width: 750px) {

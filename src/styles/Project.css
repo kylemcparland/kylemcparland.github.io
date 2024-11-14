@@ -36,7 +36,7 @@
   margin: 0;
   text-align: center;
   letter-spacing: 2px;
-  color: #fcfcfc;
+  color: #f1f1f1;
 }
 
 .Project-body {
@@ -56,7 +56,7 @@
   font-weight: 400;
   font-size: 17px;
   line-height: 140%;
-  background-color: #fcfcfc;
+  background-color: #f1f1f1;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -78,7 +78,7 @@
 
 .Project-button {
   background-color: #397059;
-  color: #fcfcfc;
+  color: #f1f1f1;
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -148,8 +148,8 @@
     font-size: 3em;
   }
   .Project-body {
-    background-color: #0c0c0c;
-    color: #fcfcfc;
+    background-color: #0f0f0f;
+    color: #f1f1f1;
     border-radius: 0;
   }
   .Project-body span {

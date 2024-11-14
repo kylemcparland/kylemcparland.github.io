@@ -19,7 +19,7 @@
   min-height: 400px;
   max-width: 715px;
   /* STYLE */
-  background-color: #fcfcfc;
+  background-color: #f1f1f1;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   margin-top: 5em;
@@ -121,7 +121,7 @@
 }
 @media (max-width: 750px) {
   .Article {
-    background-color: #0c0c0c;
+    background-color: #0f0f0f;
   }
   .Article-image {
     width: 200px;
@@ -139,8 +139,8 @@
     max-width: 800px;
     width: 100%;
     display: block;
-    color: #fcfcfc;
-    background-color: #0c0c0c;
+    color: #f1f1f1;
+    background-color: #0f0f0f;
     border-radius: 0;
     padding-top: 0px;
     padding-left: 2em;
