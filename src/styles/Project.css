@@ -138,11 +138,14 @@
   }
   .Project-header {
     background-color: #397059;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     height: fit-content;
   }
   .Project-header-title {
     padding: 0.3em;
     font-weight: 800;
+    font-size: 3em;
   }
   .Project-body {
     background-color: #0c0c0c;
@@ -164,6 +167,9 @@
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .Project-body a {
+    font-weight: bold;
   }
 }
 
