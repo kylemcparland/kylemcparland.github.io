@@ -41,9 +41,19 @@
   color: #fcfcfc;
 }
 
+@media (max-width: 1000px) {
+  .Logo-text:hover .fa-cat {
+    display: none;
+  }
+  .fa-cat:hover {
+    user-select: none;
+    color: #fcfcfc;
+  }
+}
 @media (max-width: 750px) {
   .Logo {
-    margin-left: 8vw;
+    margin-left: 5vw;
+    font-size: 25px;
   }
 }
 

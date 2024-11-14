@@ -82,6 +82,14 @@
   font-size: 18px;
 }
 
+.Project-body a {
+  color: c.$highlight-colour;
+}
+
+.Project-body a:hover {
+  text-decoration: none;
+}
+
 .Project-button {
   background-color: c.$highlight-colour;
   color: c.$secondary_colour;

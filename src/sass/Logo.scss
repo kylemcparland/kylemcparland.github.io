@@ -55,16 +55,20 @@
   color: c.$secondary-colour;
 }
 
-// .Logo p::first-letter {
-//   font-weight: 700;
-// }
-
-// .Logo:hover {
-//   text-decoration: underline;
-// }
+@media (max-width: 1000px) {
+  .Logo-text:hover .fa-cat {
+    display: none;
+  }
+  
+  .fa-cat:hover {
+    user-select: none;
+    color: c.$secondary-colour;
+  }
+}
 
 @media (max-width: 750px) {
   .Logo {
-    margin-left: 8vw;
+    margin-left: 5vw;
+    font-size: 25px;
   }
 }

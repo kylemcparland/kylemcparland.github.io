@@ -26,7 +26,20 @@ const NavLinks = ({ scrollToArticle }) => {
         </a>
       </div>
       <div className="NavLinks-mobile">
-        <i class="fa-solid fa-bars"></i>
+        <a
+          href="https://www.github.com/kylemcparland"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kyle-mcparland"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-linkedin" />
+        </a>
       </div>
     </div>
   );

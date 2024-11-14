@@ -68,6 +68,14 @@
   font-size: 18px;
 }
 
+.Project-body a {
+  color: #397059;
+}
+
+.Project-body a:hover {
+  text-decoration: none;
+}
+
 .Project-button {
   background-color: #397059;
   color: #fcfcfc;

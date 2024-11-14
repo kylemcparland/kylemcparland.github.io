@@ -53,13 +53,20 @@
   text-decoration: underline;
 }
 
-.fa-solid:hover {
-  color: #242424;
+.NavLinks-mobile {
+  width: fit-content;
+}
+
+.fa-brands {
+  font-size: 1.2em;
+  padding-left: 1em;
+  color: #fcfcfc;
 }
 
 @media (max-width: 750px) {
   .NavLinks-mobile {
     display: flex;
+    margin-right: 5vw;
   }
   .NavLinks-desktop {
     display: none;

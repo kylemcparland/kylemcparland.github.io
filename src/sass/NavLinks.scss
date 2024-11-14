@@ -63,13 +63,21 @@
   text-decoration: underline;
 }
 
-.fa-solid:hover {
-  color: c.$div-colour;
+.NavLinks-mobile {
+  width: fit-content;
+}
+
+.fa-brands {
+  font-size: 1.2em;
+  padding-left: 1em;
+  color: c.$secondary-colour;
 }
 
 @media (max-width: 750px) {
   .NavLinks-mobile {
     display: flex;
+    margin-right: 5vw;
+    
   }
 
   .NavLinks-desktop {
