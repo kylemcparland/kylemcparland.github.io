@@ -55,18 +55,12 @@
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
 }
 
-.Carousel-button:hover {
-  background-color: c.$highlight-colour-hover;
+.Carousel-previous {
+  left: 0;
 }
 
-.Carousel-button:hover .fa-angle-right {
-  transform: translateX(3px);
-  transition: transform 0.1s ease-in-out;
-}
-
-.Carousel-button:hover .fa-angle-left {
-  transform: translateX(-3px);
-  transition: transform 0.1s ease-in-out;
+.Carousel-next {
+  right: 0;
 }
 
 .fa-angle-left,
@@ -74,17 +68,25 @@
   font-size: 30px;
 }
 
-.Carousel-button:hover .fa-angle-left,
-.Carousel-button:hover .fa-angle-right {
-  color: c.$secondary-colour;
-}
+@media (min-width: 751px) {
+  .Carousel-button:hover {
+    background-color: c.$highlight-colour-hover;
+  }
 
-.Carousel-previous {
-  left: 0;
-}
+  .Carousel-button:hover .fa-angle-right {
+    transform: translateX(3px);
+    transition: transform 0.1s ease-in-out;
+  }
 
-.Carousel-next {
-  right: 0;
+  .Carousel-button:hover .fa-angle-left {
+    transform: translateX(-3px);
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .Carousel-button:hover .fa-angle-left,
+  .Carousel-button:hover .fa-angle-right {
+    color: c.$secondary-colour;
+  }
 }
 
 @media only screen and (max-width: 1200px) {

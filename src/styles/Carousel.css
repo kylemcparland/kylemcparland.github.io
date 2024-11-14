@@ -16,7 +16,7 @@
   justify-content: center;
   width: 100%;
   height: 40px;
-  background-color: #407961;
+  background-color: #397059;
 }
 
 .Carousel-caption span {
@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  color: #fdfdfd;
+  color: #fcfcfc;
 }
 
 .Carousel-button {
@@ -37,34 +37,10 @@
   width: 45px;
   border: none;
   border-radius: 100%;
-  background-color: #407961;
-  color: #fdfdfd;
+  background-color: #397059;
+  color: #fcfcfc;
   cursor: pointer;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
-}
-
-.Carousel-button:hover {
-  background-color: #1d5c40;
-}
-
-.Carousel-button:hover .fa-angle-right {
-  transform: translateX(3px);
-  transition: transform 0.1s ease-in-out;
-}
-
-.Carousel-button:hover .fa-angle-left {
-  transform: translateX(-3px);
-  transition: transform 0.1s ease-in-out;
-}
-
-.fa-angle-left,
-.fa-angle-right {
-  font-size: 30px;
-}
-
-.Carousel-button:hover .fa-angle-left,
-.Carousel-button:hover .fa-angle-right {
-  color: #fdfdfd;
 }
 
 .Carousel-previous {
@@ -75,6 +51,28 @@
   right: 0;
 }
 
+.fa-angle-left,
+.fa-angle-right {
+  font-size: 30px;
+}
+
+@media (min-width: 751px) {
+  .Carousel-button:hover {
+    background-color: #1d5c40;
+  }
+  .Carousel-button:hover .fa-angle-right {
+    transform: translateX(3px);
+    transition: transform 0.1s ease-in-out;
+  }
+  .Carousel-button:hover .fa-angle-left {
+    transform: translateX(-3px);
+    transition: transform 0.1s ease-in-out;
+  }
+  .Carousel-button:hover .fa-angle-left,
+  .Carousel-button:hover .fa-angle-right {
+    color: #fcfcfc;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .Carousel {
     width: 90%;

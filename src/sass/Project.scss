@@ -12,19 +12,14 @@
 }
 
 .Project-container {
-  margin-right: 3em;
-
   // FLEXBOX
   display: flex;
-
   flex-direction: column;
   overflow: hidden;
 
   // SIZE
   width: 40vw;
-  // height: 600px;
-  // margin-top: 5em;
-  // margin-bottom: 5em;
+  margin-right: 3em;
 }
 
 .Project-header {
@@ -59,7 +54,6 @@
   flex-direction: column;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 1;
 
   /* SIZE */
   box-sizing: border-box;
@@ -146,5 +140,42 @@
   }
   .Project-header-title {
     font-size: 3em;
+  }
+}
+
+@media (max-width: 750px) {
+  .Project {
+    padding: 0;
+  }
+  .Project-container {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .Project-header {
+    background-color: c.$highlight-colour;
+    border-radius: 0;
+    height: fit-content;
+  }
+  .Project-header-title {
+    padding: 0.3em;
+    font-weight: 800;
+  }
+  .Project-body {
+    background-color: c.$primary-colour;
+    color: c.$secondary-colour;
+    border-radius: 0;
+  }
+  .Carousel {
+    width: 100%;
+  }
+  .Carousel-caption {
+    height: fit-content;
+  }
+  .Carousel-caption span {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }

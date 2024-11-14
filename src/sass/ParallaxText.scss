@@ -10,7 +10,7 @@
   height: 150px;
 
   // background-color: c.$highlight-colour;
-  color: c.$secondary-colour;
+  color: c.$div-colour;
 }
 
 .ParallaxText-list {
@@ -26,20 +26,24 @@
 .ParallaxText-list li {
   padding: 12px;
 
-  font-size: 150px;
+  font-size: 170px;
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal;
   text-align: center;
   list-style-type: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
   .ParallaxText {
-    height: fit-content;
+    height: 9em;
+    background-color: c.$div-colour;
   }
   .ParallaxText-list li {
-    font-size: 5em;
+    font-size: 9em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: c.$primary-colour;
   }
 }

@@ -25,6 +25,18 @@ const ParallaxText = ({ text, backwards, speed }) => {
         <li>{text}</li>
         <li>{text}</li>
         <li>{text}</li>
+
+        <li>{text}</li>
+        <li>{text}</li>
+        <li>{text}</li>
+
+        <li>{text}</li>
+        <li>{text}</li>
+        <li>{text}</li>
+
+        <li>{text}</li>
+        <li>{text}</li>
+        <li>{text}</li>
       </ul>
     </div>
   );

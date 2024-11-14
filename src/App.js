@@ -48,10 +48,8 @@ function App() {
         <Article />
       </div>
       <br className="break" />
-      <br className="break" />
       <ParallaxText text="PHOTOLABS" backwards={false} speed={3} />
       <ParallaxText text="PHOTOLABS" backwards={true} speed={3} />
-      <br className="break" />
       <br className="break" />
       <Project
         description={<PhotoLabs />}
@@ -60,10 +58,8 @@ function App() {
         title="PhotoLabs"
       />
       <br className="break" />
-      <br className="break" />
       <ParallaxText text="VHS DREAMS" backwards={false} speed={3} />
       <ParallaxText text="VHS DREAMS" backwards={true} speed={3} />
-      <br className="break" />
       <br className="break" />
       <Project
         description={<VHSDreams />}
@@ -72,10 +68,8 @@ function App() {
         title="VHS Dreams"
       />
       <br className="break" />
-      <br className="break" />
       <ParallaxText text="TWEETER" backwards={false} speed={3} />
       <ParallaxText text="TWEETER" backwards={true} speed={3} />
-      <br className="break" />
       <br className="break" />
       <Project
         description={<Tweeter />}

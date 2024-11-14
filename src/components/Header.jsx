@@ -12,7 +12,7 @@ const Header = () => {
 
   // Convert horizontal mouse position into scaleX...
   const horizontalMove = (mousePosition.x / window.innerWidth) * 100;
-  const scaleX = ((horizontalMove - 0) / (100 - 0)) * (2 - 0.3) + 0.3;
+  const scaleX = ((horizontalMove - 0) / (100 - 0)) * (1.9 - 0.3) + 0.3;
 
   // Convert vertical mouse position into skewX value...
   const verticalMove = (mousePosition.y / window.innerHeight) * 100;
