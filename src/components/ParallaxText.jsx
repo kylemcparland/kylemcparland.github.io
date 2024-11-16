@@ -43,5 +43,3 @@ const ParallaxText = ({ text, backwards, speed }) => {
 };
 
 export default ParallaxText;
-
-console.log(window.scrollY);

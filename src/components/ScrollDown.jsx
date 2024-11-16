@@ -6,12 +6,14 @@ import useScrollPosition from "../helpers/useScrollPosition";
 const ScrollDown = () => {
   const scrollPosition = useScrollPosition();
 
-  console.log(scrollPosition);
+  // console.log(scrollPosition);
 
   return (
-    <div className="ScrollDown">
+    <div className="ScrollDown-container">
       {scrollPosition < 200 ? (
-        <i className="fa-solid fa-hand-point-down"></i>
+        <div className="ScrollDown">
+          <i className="fa-solid fa-hand-point-down"></i>
+        </div>
       ) : null}
     </div>
   );

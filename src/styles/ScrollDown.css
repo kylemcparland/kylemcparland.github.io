@@ -5,30 +5,33 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  margin-right: 10px;
-  color: #397059;
+  margin-right: 0.3em;
   z-index: 0;
   /* SIZE */
+  height: 6vh;
+  width: 6vh;
   box-sizing: border-box;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 13px;
   padding-right: 13px;
-  border-radius: 5px;
-  font-size: 40px;
+  background-color: #397059;
+  color: #0f0f0f;
+  border-radius: 100%;
+  font-size: 4vh;
   transform: translateY(-10px);
   animation: point 1.2s ease-in-out infinite;
 }
 
 @keyframes point {
   0% {
-    transform: translateY(-10px);
+    transform: translateY(-11px);
   }
   50% {
-    transform: translateY(-3px);
+    transform: translateY(-6px);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-11px);
   }
 }
 @media (max-width: 768px) {

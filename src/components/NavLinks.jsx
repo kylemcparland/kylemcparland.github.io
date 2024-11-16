@@ -31,14 +31,14 @@ const NavLinks = ({ scrollToArticle }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fa-brands fa-github" />
+          <i className="fa-brands fa-github" />
         </a>
         <a
           href="https://www.linkedin.com/in/kyle-mcparland"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fa-brands fa-linkedin" />
+          <i className="fa-brands fa-linkedin" />
         </a>
       </div>
     </div>
