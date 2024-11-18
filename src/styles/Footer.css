@@ -5,8 +5,8 @@
   justify-content: center;
   height: 200px;
   width: 100%;
-  background-color: #0f0f0f;
-  color: #f1f1f1;
+  background-color: #111111;
+  color: #eeeded;
 }
 
 .Footer-email {
@@ -20,8 +20,8 @@
 }
 
 .Footer-line {
-  border-color: #397059;
-  background-color: #397059;
+  border-color: #376b55;
+  background-color: #376b55;
 }
 
 .Footer-year {

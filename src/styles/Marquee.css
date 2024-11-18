@@ -10,8 +10,8 @@
   --gap: 1rem;
   gap: var(--gap);
   /* STYLE */
-  background-color: #397059;
-  color: #f1f1f1;
+  background-color: #376b55;
+  color: #eeeded;
   margin-top: 5em;
   margin-bottom: 5em;
 }

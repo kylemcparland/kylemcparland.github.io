@@ -5,7 +5,7 @@
   overflow: hidden;
   width: 100%;
   height: 150px;
-  color: #242424;
+  color: #222224;
 }
 
 .ParallaxText-list {
@@ -32,13 +32,13 @@
 @media (max-width: 750px) {
   .ParallaxText {
     height: 8em;
-    background-color: #242424;
+    background-color: #222224;
   }
   .ParallaxText-list li {
     font-size: 9em;
     padding-top: 0px;
     padding-bottom: 2px;
-    color: #0f0f0f;
+    color: #111111;
   }
 }
 

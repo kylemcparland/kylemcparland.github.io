@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: #242424;
+  background-color: #222224;
   width: 100%;
   padding-top: 3em;
   padding-bottom: 3em;
@@ -20,7 +20,7 @@
   display: inherit;
   justify-content: center;
   align-items: center;
-  background-color: #397059;
+  background-color: #376b55;
   width: 100%;
   height: 100px;
   border-top-left-radius: 25px;
@@ -36,7 +36,7 @@
   margin: 0;
   text-align: center;
   letter-spacing: 2px;
-  color: #f1f1f1;
+  color: #eeeded;
 }
 
 .Project-body {
@@ -56,7 +56,7 @@
   font-weight: 400;
   font-size: 17px;
   line-height: 140%;
-  background-color: #f1f1f1;
+  background-color: #eeeded;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -69,7 +69,7 @@
 }
 
 .Project-body a {
-  color: #397059;
+  color: #376b55;
 }
 
 .Project-body a:hover {
@@ -77,8 +77,8 @@
 }
 
 .Project-button {
-  background-color: #397059;
-  color: #f1f1f1;
+  background-color: #376b55;
+  color: #eeeded;
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -99,13 +99,13 @@
   justify-content: center;
   align-items: center;
   align-self: center;
-  color: #397059;
+  color: #376b55;
   font-weight: 800;
   font-size: 18px;
 }
 
 .Project-button:hover {
-  background-color: #1d5c40;
+  background-color: #1d533b;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -137,7 +137,7 @@
     margin-bottom: 0;
   }
   .Project-header {
-    background-color: #397059;
+    background-color: #376b55;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: fit-content;
@@ -148,8 +148,8 @@
     font-size: 3em;
   }
   .Project-body {
-    background-color: #0f0f0f;
-    color: #f1f1f1;
+    background-color: #111111;
+    color: #eeeded;
     border-radius: 0;
   }
   .Project-body span {

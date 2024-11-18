@@ -14,7 +14,7 @@
   text-align: center;
   /* STYLE */
   user-select: none;
-  color: #f1f1f1;
+  color: #eeeded;
   text-underline-offset: 5px;
 }
 
@@ -39,7 +39,7 @@
 
 .fa-cat:hover {
   user-select: none;
-  color: #f1f1f1;
+  color: #eeeded;
 }
 
 @media (max-width: 1000px) {
@@ -48,7 +48,7 @@
   }
   .fa-cat:hover {
     user-select: none;
-    color: #f1f1f1;
+    color: #eeeded;
   }
 }
 @media (max-width: 750px) {
