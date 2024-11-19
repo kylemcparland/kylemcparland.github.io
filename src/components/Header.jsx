@@ -16,18 +16,14 @@ const Header = () => {
   const defaultFontWeight = 800;
 
   // Convert horizontal mouse position into scaleX...
-  const horizontalMove =
-    mousePosition.x !== null ? (mousePosition.x / window.innerWidth) * 100 : 50;
+  const horizontalMove = (mousePosition.x / window.innerWidth) * 100;
   const scaleX =
     mousePosition.x !== null
       ? ((horizontalMove - 0) / (100 - 0)) * (1.9 - 0.3) + 0.3
       : defaultScaleX;
 
   // Convert vertical mouse position into skewX value...
-  const verticalMove =
-    mousePosition.y !== null
-      ? (mousePosition.y / window.innerHeight) * 100
-      : 50;
+  const verticalMove = (mousePosition.y / window.innerHeight) * 100;
   const skewX =
     mousePosition.y !== null
       ? ((verticalMove - 0) / (100 - 0)) * (12 - -12) + -10
