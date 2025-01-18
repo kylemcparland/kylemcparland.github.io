@@ -6,7 +6,7 @@ export const everstridePhotos = [
   {
     url: "images/Everstride/1E-add-progress.gif",
     caption:
-      "No Strava APP? No problem! Manually add your steps to progress on your quest!",
+      "No Strava app? No problem! Manually add your steps to progress on your quest!",
   },
   {
     url: "images/Everstride/8E-strava.png",
