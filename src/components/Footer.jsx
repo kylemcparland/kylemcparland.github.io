@@ -8,7 +8,7 @@ const Footer = () => {
         kylemcparland@gmail.com
         <hr className="Footer-line" />
       </div>
-      <div className="Footer-year">© Kyle McParland 2024</div>
+      <div className="Footer-year">© Kyle McParland 2025</div>
     </div>
   );
 };
