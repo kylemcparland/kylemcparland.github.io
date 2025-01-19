@@ -28,6 +28,7 @@ import {
   Everstride,
   everstrideLink,
   everstridePhotos,
+  everstrideWebsite,
 } from "./projects/Everstride";
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
         description={<Everstride />}
         link={everstrideLink}
         photos={everstridePhotos}
+        website={everstrideWebsite}
         title="Everstride"
       />
 

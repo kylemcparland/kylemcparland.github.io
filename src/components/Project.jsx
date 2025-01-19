@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "./Carousel";
 import "../styles/Project.css";
 
-const Project = ({ description, link, photos, title }) => {
+const Project = ({ description, link, photos, title, website }) => {
   return (
     <div className="Project">
       <div className="Project-container">
@@ -18,6 +18,14 @@ const Project = ({ description, link, photos, title }) => {
                 View on GitHub
               </button>
             </a>
+            {/* Conditional second button */}
+            {website && (
+              <div>
+                <a href={website} target="_blank" rel="noopener noreferrer">
+                  <button className="Project-button">Visit Website</button>
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 
 export const everstrideLink = "https://github.com/kylemcparland/everstride";
+export const everstrideWebsite = "https://everstride.vercel.app/";
 
 export const everstridePhotos = [
   {
